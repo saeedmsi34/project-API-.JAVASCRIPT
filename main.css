@@ -1,0 +1,82 @@
+body{
+    cursor:pointer
+}
+.home{
+ height:100vh;
+
+    background-image: url(imgs/rachel-park-hrlvr2ZlUNk-unsplash.jpg);
+    background-size: cover;
+
+
+}
+.navbar{
+    background-color: rgba(0,0,0,.5);
+    
+}
+.lins{
+    color: white;
+}
+.lins:hover{
+color:chocolate;
+transition: all 1s;
+}
+.navbar-brand{
+    color: white;
+}
+.navbar-brand:hover{
+    color:chocolate;
+    transition: all 1s;
+
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color:burlywood;
+    transition: all 1s;
+}
+
+
+.imgs{
+    height: 180px;
+ }
+
+
+
+.row{
+    background-color: rgba(0, 0,0 ,.6 );
+}
+h6{
+    padding-top:10px ;
+    color: rgb(250, 245, 235);
+    font-size: 22px;
+}
+@media screen and (max-width:568px)
+{
+    .col-md-3 
+    {
+        width: 100%;
+        font-size: 30px;
+    }
+    
+}
+
+@media screen and (min-width:569px)and (max-width:768px)
+{
+    .col-md-3
+    {
+        width: 50%;
+        font-size: 25px;
+    }
+    
+}
+
+@media screen and (min-width:769px)and (max-width:992px)
+{
+    .col-md-3 
+    {
+        width: 50%;
+        font-size: 25px;
+    }
+    
+}
